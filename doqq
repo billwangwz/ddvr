@@ -1,15 +1,1 @@
-wget https://dl.qubic.li/downloads/qli-Client-1.8.0-beta-Linux-x64.tar.gz
-tar vxf qli-Client-1.8.0-beta-Linux-x64.tar.gz
-apt install libc6 && apt install -y g++-11 && apt install vim
 
-{
-  "Settings": {
-    "baseUrl": "https://mine.qubic.li/",
-    "amountOfThreads": 1,
-    "payoutId": null,
-    "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImUyZGFhNzFhLWRmYWEtNDczYi1iNzM4LWYwOGJjMmZlNGU2NyIsIk1pbmluZyI6IiIsIm5iZiI6MTcwMzU2MDAxNSwiZXhwIjoxNzM1MDk2MDE1LCJpYXQiOjE3MDM1NjAwMTUsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.X_DGH6Ajt6N1ACloKN9X9lfm-yWhxVuiGYH_QGix2GUk8yACHzCKei71jJj_pxyCbRNOFdEDoEEVXCqpDtQE1g",
-    "allowHwInfoCollect": true,
-    "overwrites": {"cuda": "12"},
-    "alias": "qubic.4090x2.client"
-  }
-}
